@@ -31,7 +31,7 @@
     
 *   'Center' var represents the rotation center and is defined by the central element of the piece
 
-## Windows users
+## Windows users (it is required to press the key followed by ENTER)
 >Moves an options: 
 - LEFT  :'a' key + ENTER
 - RIGHT :'d' key + ENTER
@@ -39,7 +39,7 @@
 - ROTATE :'space' + ENTER
 - QUIT  :'q' + ENTER
 
-## Linux users
+## Linux users (key automatic detection)
 >Moves an options: 
 - LEFT  : Left arrow key
 - RIGHT : Right arrow key
