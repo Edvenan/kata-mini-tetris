@@ -1,29 +1,35 @@
 # KATA 14-09-2023 - Mini Tetris
 
 ## Goal
->The algorithm is about moving a piece of tetris ('L' shape) across a 10 x 10 board
->Allowed user moves are LEFT, RIGHT, DOWN and ROTATE (Clockwise)
->The piece cannot move beyond the board limits
+>The algorithm is about moving a piece of tetris ('L' shape) across a 10 x 10 board.\
+>Allowed user moves are LEFT, RIGHT, DOWN and ROTATE (Clockwise).\
+>The piece cannot move beyond the board limits.\
 >More details: https://retosdeprogramacion.com/semanales2023
 
 ## Developer notes:
-*   Piece 2D positions:
-*       position 1 =  ⬜⬛⬛   
-*                     ⬜⬜⬜
-*                     ⬛⬛⬛
-*   
-*       position 2 = ⬛⬜⬜   
-*                    ⬛⬜⬛
-*                    ⬛⬜⬛
-*
-*       position 3 =  ⬛⬛⬛
-*                     ⬜⬜⬜   
-*                     ⬛⬛⬜
-*   
-*       position 4 =  ⬛⬜⬛
-*                     ⬛⬜⬛
-*                     ⬜⬜⬛
-*   Center is defined by the center element of the piece which represents the rotation center
+*   'Pos' var represents the possible 2D position of the piece:
+  
+       position 1:\
+    ⬛⬜⬜\
+    ⬛⬛⬛\
+    ⬜⬜⬜
+  
+      position 2:\
+    ⬜⬛⬛\
+    ⬜⬛⬜\
+    ⬜⬛⬜
+
+      position 3:
+    ⬜⬜⬜\
+    ⬛⬛⬛\
+    ⬜⬜⬛
+   
+       position 4:\
+    ⬜⬛⬜\
+    ⬜⬛⬜\
+    ⬛⬛⬜
+    
+*   'Center' var represents the rotation center and is defined by the central element of the piece
 
 ## Windows users
 >Moves an options: 
